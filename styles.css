@@ -7,9 +7,9 @@
 	height: 700px;
 	display: grid;
 	background-color: white;
-	gap: 5px;
-	grid-template-columns: auto auto auto auto ;
-	grid-template-rows: 100px 100px 100px;
+	grid-gap: 10px 10px;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px ;
+	grid-template-rows: 124px 124px 124px 124px 124px;
 }
 #one{
 	grid-column-start: 1;	
