@@ -11,17 +11,31 @@
 	grid-template-columns: 242.5px 242.5px 242.5px 242.5px ;
 	grid-template-rows: 124px 124px 124px 124px 124px;
 }
-#one{
-	grid-column-start: 1;	
-	grid-column-end: 5;	
+#grid > div:nth-child(1){
+	grid-column: span 4 / auto;
+
+#grid > div:nth-child(2){
+	grid-row: span 4 / auto;
 }
-#two{
-	grid-column-start: 1;	
-	grid-column-end: 2;
-	grid-row-start: 2;	
-	grid-row-end: 6;
+#grid > div:nth-child(4){
+	grid-column: span 2 / auto;
 }
-#three{
+#grid > div:nth-child(5){
+	grid-column: span 2 / auto:
+}
+#grid > div:nth-child(10){
+	grid-column: span 3 / auto;
+
+
+
+
+
+
+
+
+
+
+/* #three{
 	grid-column-start: 2;	
 	grid-column-end: 3;	
 }
@@ -54,7 +68,7 @@
 	grid-column-end: 5;	
 }
 
-
+ */
 
 
 
